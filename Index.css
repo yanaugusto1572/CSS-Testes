@@ -1,0 +1,34 @@
+* {
+    margin: 0;
+}
+
+/* Cabeçalho */
+.cabeçalho1 {
+    background-color: rgb(100, 100, 104);
+    padding: 10px 5px;
+    border-bottom: 5px solid;
+}
+
+.logo1 {
+    display: inline-block;
+    margin-left: 20px;
+    font-size: 50px;
+}
+
+.cabeçalho1 nav {
+    float:right ;
+} 
+
+.cabeçalho1 nav li {
+    display: inline-block;
+    padding: 15px;
+    font-size: 25px;
+    padding-right: 50px;
+}
+
+a {
+    color: #000;
+    text-decoration: none;
+    font-size: 30px;
+}
+
