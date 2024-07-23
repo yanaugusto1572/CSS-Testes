@@ -32,3 +32,21 @@ a {
     font-size: 30px;
 }
 
+p:first-child{
+    color: red;
+    background-color: #000;
+}
+
+p:last-child{
+    color: blue;
+    background-color: black;
+}
+
+p:not(.padrao){
+    color: #fff;
+    background-color: green;
+}
+
+p:nth-child(n+2){
+    background-color: blueviolet;
+}
