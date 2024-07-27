@@ -9,6 +9,13 @@
     border-bottom: 5px solid;
 }
 
+.paipai {
+    background-color: #fff;
+    border: solid black;
+    margin: 3% 10% 0% 10%;
+    padding: 10px;
+}
+
 .logo1 {
     display: inline-block;
     margin-left: 20px;
