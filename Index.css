@@ -73,3 +73,13 @@ h4::before {
     height: 80px;
 }
 
+:root{
+    --cor-1:blue;
+    --fonte-1:50px;
+}
+
+h4{
+    color: var(--cor-1);
+    font-size: var(--fonte-1)
+}
+
