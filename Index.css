@@ -83,3 +83,19 @@ h4{
     font-size: var(--fonte-1)
 }
 
+.container {
+    display: flex;
+    flex-flow: wrap;
+    justify-content: space-evenly;
+}
+
+.container div {
+    font-size: 90px;
+    color: yellow;
+    background-color: red;
+    margin: 10px;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    border: solid black 10px;
+}
