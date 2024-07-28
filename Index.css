@@ -50,3 +50,26 @@ p:not(.padrao){
 p:nth-child(n+2){
     background-color: blueviolet;
 }
+
+.paragrafo::first-line {
+    color: aqua;
+    background-color: #000;
+}
+
+.paragrafo::first-letter {
+    color: red;
+    background-color: #fff;
+}
+
+li::marker {
+    color: red;
+}
+
+h4::before {
+    content: "";
+    background: url(./Assets/Vader2.jpg) center center no-repeat;
+    display: inline-block;
+    width: 80px;
+    height: 80px;
+}
+
