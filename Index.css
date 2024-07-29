@@ -84,9 +84,12 @@ h4{
 }
 
 .container {
+    border: solid #000 5px;
+    background-color: aqua;
     display: flex;
-    flex-flow: wrap;
-    justify-content: space-evenly;
+    /* flex-flow: wrap;  */
+    /* align-items: flex-end; */
+    align-items: flex-end;
 }
 
 .container div {
