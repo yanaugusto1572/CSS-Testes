@@ -38,19 +38,19 @@ p:first-child{
     background-color: #000;
 }
 
-p:last-child{
+/* p:last-child{
     color: blue;
     background-color: black;
-}
+} */
 
-p:not(.padrao){
+/* p:not(.padrao){
     color: #fff;
     background-color: green;
-}
+} */
 
-p:nth-child(n+2){
+/* p:nth-child(n+2){
     background-color: blueviolet;
-}
+} */
 
 .paragrafo::first-line {
     color: aqua;
@@ -103,3 +103,56 @@ h4{
     text-align: center;
     border: solid black 10px;
 }
+
+/* Atividade Vader */
+.PerfilV1 {
+    background-color: #fff;
+    text-align: center;
+    margin: 50px 450px;
+    border-radius: 50px;
+    font-size: 30px;
+}
+
+.FotoV1 {
+    width: 150px;
+    border-radius: 50%;
+    height: 250px;
+    width: 250px;
+    padding-top: 20px;
+    
+}
+
+.conteiner {
+    color: black;
+    background-color: blue;
+    border: solid 10px red;
+    font-size: 40px;
+    padding: 15px;
+    max-width: 300px;
+    height: 300px;
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+    /* flex-wrap: wrap; */
+}
+
+.item {
+    background-color: orange;
+    border: solid 5px white;
+    height: 50px;
+    width: 50px;
+    flex-basis: 30px;
+}
+
+#item1 {
+    order: 2;
+}
+
+#item2{
+    order: 3;
+}
+
+#item3 {
+    order: 1;
+}
+
